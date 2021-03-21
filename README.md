@@ -12,14 +12,14 @@
 
 ## Overview
 ### Description
-[This app enable user to post request for forming a gaming team. Making friends with other gamers and ask for guidance on specific game. User can also post ther game progress, their ranking or strategy and so on]
+[This app enable user to post request for forming a gaming team. Making friends with other gamers and ask for guidance on specific game. People can sign up and log in the app. User can also post ther game progress, their ranking or strategy and so on]
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
 - **Category:** Social
 - **Mobile:**
 - **Story:**
-- **Market:** 
+- **Market:** Teenagers and gamers.
 - **Habit:**
 - **Scope:**
 
@@ -32,6 +32,8 @@
 * [fill in your required user stories here]
 * User post team up request
 * User post game infos
+* When the number of team up requests meet the game require, app build a game room put the gamer together into the same game room.
+* Game start.
 
 
 
@@ -39,6 +41,7 @@
 
 * [fill in your optional user stories here]
 * User can rate a previous cooperation
+* User can dislike someone and never be in the same game with that person.
 
 ### 2. Screen Archetypes
 
