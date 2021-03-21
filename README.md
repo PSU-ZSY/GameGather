@@ -17,11 +17,11 @@
 ### App Evaluation
 [Evaluation of your app across the following attributes]
 - **Category:** Social
-- **Mobile:**
-- **Story:**
-- **Market:** Teenagers and gamers.
-- **Habit:**
-- **Scope:**
+- **Mobile:** Mobile only, uses photo
+- **Story:** Allow users to make posts for finding teammates and exchange information on games, including ranking, strategy and others. 
+- **Market:** Mostly teenagers and gamers. Providing a platform for people who don't have friends to play together or those who like to delve into gameplay.
+- **Habit:** User can create posts and team up request throughout the day. List the user's gaming achievement to encourage them spend more time on certain game. Show excellent member's hight ratings to increase their population, and encourage more user to compete to be better game tutors.
+- **Scope:** The earlies version focuses on mobile game players, and porvide basic function like posting game snapshots and viewing feeds. Later version wil expand to support web games or console games, and add tutor ranking feature.
 
 ## Product Spec
 
@@ -34,6 +34,7 @@
 * User post game infos
 * When the number of team up requests meet the game require, app build a game room put the gamer together into the same game room.
 * Game start.
+* User can sign up and sign in.
 
 
 
@@ -45,29 +46,28 @@
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Login and sign up
+   * Froce users to build up basic personal profile
+* Game selection
+   * Select the game that the user want to make a post
+* Make Posts
+   * Making a post to find teammates
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* First tab: Tab to choose the game the user is playing. 
+* Second tab: Add details on the team up request info in text field, like number of members needed, time to meet together, ect. post the request.
+* Third tab: View game info, latest news etc.
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Forced Login or Sign up
+* Sign up -> Forced personal profile build up
+* Game selecion -> Jumps to post area
+* Post -> post text editing
+* Exit -> exit to the game selection screen
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
