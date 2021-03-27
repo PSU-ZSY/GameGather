@@ -48,18 +48,21 @@
 
 * Login and sign up
    * Froce users to build up basic personal profile
-* Game selection
-   * Select the game that the user want to make a post
-* Make Posts
+* Game Gallery
+   * Select the game that the user want to know about
+* Team up & Make Posts
    * Making a post to find teammates
+* Community page with game discussion and news   
+   
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* First tab: Tab to choose the game the user is playing. 
+* First tab: Tab to choose/view the game the user is playing. 
 * Second tab: Add details on the team up request info in text field, like number of members needed, time to meet together, ect. post the request.
-* Third tab: View game info, latest news etc.
+* Third tab: return to home page.
+* Fourth tab: Community, view game info, latest news etc.
 
 **Flow Navigation** (Screen to Screen)
 
@@ -71,11 +74,17 @@
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+* Note: We directly used Figma
+<img src="https://i.imgur.com/aJlsrp1.png" width=600>
+<img src="https://i.imgur.com/vSQ2EwA.png" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
+<img src="https://i.imgur.com/aJlsrp1.png" width=600>
+<img src="https://i.imgur.com/vSQ2EwA.png" width=600>
 
 ### [BONUS] Interactive Prototype
+<img src='https://i.imgur.com/dBVcMjB.gif' width='300' alt='Video Walkthrough' />
+
 
 ## Schema 
 [This section will be completed in Unit 9]
