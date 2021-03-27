@@ -99,7 +99,7 @@ Team up posts
 | image         | file            | image the user uploaded             |
 | caption       | String          | detail info to find team members    |
 | commentsCount | Number          | numbers of comments to the post     |
-| likeCount     | Number          | numbers of likes to the post        |
+| likesCount    | Number          | numbers of likes to the post        |
 | createdAt     | DateTime        | date when post is created           |
 
 Community posts
@@ -111,7 +111,7 @@ Community posts
 | image         | file            | image the user uploaded             |
 | caption       | String          | post caption by author              |
 | commentsCount | Number          | numbers of comments to the post     |
-| likeCount     | Number          | numbers of likes to the post        |
+| likesCount    | Number          | numbers of likes to the post        |
 | createdAt     | DateTime        | date when post is created           |
 
 ### Networking
