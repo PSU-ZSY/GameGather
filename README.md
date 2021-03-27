@@ -89,27 +89,30 @@
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-[Add table of models]
 
 Team up posts
 
-| Property | Type            | Description                         |
-|----------|-----------------|-------------------------------------|
-| objectID | String          | unique id for the team request post |
-| author   | Pointer to User | post author                         |
-| image    | file            | image the user uploaded             |
-| caption  | String          | detail info to find team members    |
+| Property      | Type            | Description                         |
+|---------------|-----------------|-------------------------------------|
+| objectID      | String          | unique id for the team request post |
+| author        | Pointer to User | post author                         |
+| image         | file            | image the user uploaded             |
+| caption       | String          | detail info to find team members    |
+| commentsCount | Number          | numbers of comments to the post     |
+| likeCount     | Number          | numbers of likes to the post        |
+| createdAt     | DateTime        | date when post is created           |
 
 Community posts
 
-| Property      | Type            | Description                     |
-|---------------|-----------------|---------------------------------|
-| objectID      | String          | unique id for the user post     |
-| author        | Pointer to User | post author                     |
-| image         | file            | image the user uploaded         |
-| caption       | String          | post caption by author          |
-| commentsCount | Number          | numbers of comments to the post |
-
+| Property      | Type            | Description                         |
+|---------------|-----------------|-------------------------------------|
+| objectID      | String          | unique id for the user post         |
+| author        | Pointer to User | post author                         |
+| image         | file            | image the user uploaded             |
+| caption       | String          | post caption by author              |
+| commentsCount | Number          | numbers of comments to the post     |
+| likeCount     | Number          | numbers of likes to the post        |
+| createdAt     | DateTime        | date when post is created           |
 
 ### Networking
 - [Add list of network requests by screen ]
