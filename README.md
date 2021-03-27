@@ -113,5 +113,33 @@ Community posts
 
 ### Networking
 - [Add list of network requests by screen ]
+
+Login and sign up screen
+ - (Read/Get) Query logged in user object
+ - (Create) new user object when sign up
+
+Team up & Make Posts
+ - (Read/Get) Query all posts where user is author
+    * create post screen
+ - (Create/Post) Create a new post object
+
+---------------------------------------------------------------
 - [Create basic snippets for each Parse network request]
+    * user 
+
+    '''
+        
+        let user = PFUser()
+        user.username = usernameField.text
+        user.password = passwordField.text
+        
+        user.signUpInBackground { (success, error) in
+            if success {
+                //self.performSegue(withIdentifier: "loginSegue", sender: nil)
+            } else{
+                print("Error: \(error?.localizedDescription)")
+            }
+        }
+    '''
+    
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
