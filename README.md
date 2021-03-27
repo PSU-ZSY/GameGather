@@ -90,6 +90,27 @@
 [This section will be completed in Unit 9]
 ### Models
 [Add table of models]
+
+Team up posts
+
+| Property | Type            | Description                         |
+|----------|-----------------|-------------------------------------|
+| objectID | String          | unique id for the team request post |
+| author   | Pointer to User | post author                         |
+| image    | file            | image the user uploaded             |
+| caption  | String          | detail info to find team members    |
+
+Community posts
+
+| Property      | Type            | Description                     |
+|---------------|-----------------|---------------------------------|
+| objectID      | String          | unique id for the user post     |
+| author        | Pointer to User | post author                     |
+| image         | file            | image the user uploaded         |
+| caption       | String          | post caption by author          |
+| commentsCount | Number          | numbers of comments to the post |
+
+
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
