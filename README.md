@@ -83,7 +83,7 @@
 <img src="https://i.imgur.com/vSQ2EwA.png" width=600>
 
 ### [BONUS] Interactive Prototype
-<img src='https://i.imgur.com/dBVcMjB.gif' width='300' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/HkNlsKu.gif' width='300' alt='Video Walkthrough' />
 
 
 ## Schema 
