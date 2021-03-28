@@ -101,6 +101,7 @@ Team up posts
 | commentsCount | Number          | numbers of comments to the post     |
 | likesCount    | Number          | numbers of likes to the post        |
 | createdAt     | DateTime        | date when post is created           |
+| commentedAt   | DateTime        | date when post last commented       |
 
 Community posts
 
@@ -113,18 +114,30 @@ Community posts
 | commentsCount | Number          | numbers of comments to the post     |
 | likesCount    | Number          | numbers of likes to the post        |
 | createdAt     | DateTime        | date when post is created           |
+| commentedAt   | DateTime        | date when post last commented       |
 
 ### Networking
 - [Add list of network requests by screen ]
 
-Login and sign up screen
+Login and sign up Screen
  - (Read/Get) Query logged in user object
  - (Create) new user object when sign up
 
-Team up & Make Posts
+Team up & Make Posts Screen
  - (Read/Get) Query all posts where user is author
-    * create post screen
+
+Create post Screen
  - (Create/Post) Create a new post object
+
+Games Gallery Screen
+ - (Read/Get) Query all games object
+
+Community Scree 
+ - (Read/Get) Query all community posts where user is author
+
+Profile Screen
+- (Read/GET) Query logged in user object
+- (Update/PUT) Update user profile image and information
 
 ---------------------------------------------------------------
 - [Create basic snippets for each Parse network request]
