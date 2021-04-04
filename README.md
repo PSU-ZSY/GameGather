@@ -34,7 +34,7 @@
 * [ ] User post game infos
 * [ ] When the number of team up requests meet the game require, app build a game room put the gamer together into the same game room.
 * [ ] Game start.
-* [ ] User can sign up and sign in. 
+* [X] User can sign up and sign in. 
 
 
 
@@ -162,3 +162,9 @@ Profile Screen
 
 
 <img src='http://g.recordit.co/UFuyR8ZCfn.gif' width='900'/>
+
+### Milestone 1
+
+<img src='https://i.imgur.com/ORZjkDf.gif' width='300' alt='Video Walkthrough' />
+
+<img src='https://i.imgur.com/PbTwquV.gif' width='300' alt='Video Walkthrough' />
