@@ -161,4 +161,4 @@ Profile Screen
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
 
 
-<img src='http://g.recordit.co/UFuyR8ZCfn.gif' width='300'/>
+<img src='http://g.recordit.co/UFuyR8ZCfn.gif' width='900'/>
