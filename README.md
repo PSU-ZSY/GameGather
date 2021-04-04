@@ -168,3 +168,6 @@ Profile Screen
 <img src='https://i.imgur.com/ORZjkDf.gif' width='300' alt='Video Walkthrough' />
 
 <img src='https://i.imgur.com/PbTwquV.gif' width='300' alt='Video Walkthrough' />
+
+<img src='https://i.imgur.com/2Od7SiB.gif' width='300' alt='Video Walkthrough' />
+
