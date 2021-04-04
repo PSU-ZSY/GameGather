@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0861012A261A17C600F26324 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08610129261A17C600F26324 /* HomeViewController.swift */; };
 		08B5BBF12619AF1E00632301 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B5BBF02619AF1E00632301 /* AppDelegate.swift */; };
 		08B5BBF32619AF1E00632301 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B5BBF22619AF1E00632301 /* SceneDelegate.swift */; };
 		08B5BBF52619AF1E00632301 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B5BBF42619AF1E00632301 /* ViewController.swift */; };
@@ -40,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08610129261A17C600F26324 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		08B5BBED2619AF1E00632301 /* GameGather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GameGather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		08B5BBF02619AF1E00632301 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08B5BBF22619AF1E00632301 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				08B5BBFE2619AF1F00632301 /* Info.plist */,
 				08B5BC232619B3FB00632301 /* SignUpViewController.swift */,
 				08B5BC282619B43800632301 /* LoginViewController.swift */,
+				08610129261A17C600F26324 /* HomeViewController.swift */,
 			);
 			path = GameGather;
 			sourceTree = "<group>";
@@ -161,7 +164,6 @@
 				2FD0F532C0A237F3EE2BBCB2 /* Pods-GameGatherTests.debug.xcconfig */,
 				A1117E6C6F639F99C4831818 /* Pods-GameGatherTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -418,6 +420,7 @@
 				08B5BC242619B3FB00632301 /* SignUpViewController.swift in Sources */,
 				08B5BC292619B43800632301 /* LoginViewController.swift in Sources */,
 				08B5BBF32619AF1E00632301 /* SceneDelegate.swift in Sources */,
+				0861012A261A17C600F26324 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
