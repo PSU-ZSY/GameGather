@@ -30,19 +30,19 @@
 **Required Must-have Stories**
 
 * [fill in your required user stories here]
-* User post team up request
-* User post game infos
-* When the number of team up requests meet the game require, app build a game room put the gamer together into the same game room.
-* Game start.
-* User can sign up and sign in.
+* User post team up request [ ]
+* User post game infos [ ]
+* When the number of team up requests meet the game require, app build a game room put the gamer together into the same game room. [ ]
+* Game start. [ ]
+* User can sign up and sign in. [ ]
 
 
 
 **Optional Nice-to-have Stories**
 
 * [fill in your optional user stories here]
-* User can rate a previous cooperation
-* User can dislike someone and never be in the same game with that person.
+* User can rate a previous cooperation [ ]
+* User can dislike someone and never be in the same game with that person. [ ]
 
 ### 2. Screen Archetypes
 
