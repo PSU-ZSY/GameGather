@@ -34,7 +34,8 @@
 * [ ] User post game infos
 * [ ] When the number of team up requests meet the game require, app build a game room put the gamer together into the same game room.
 * [ ] Game start.
-* [X] User can sign up and sign in. 
+* [X] User can sign up and sign in.
+* [X] App icon and Launch scene 
 
 
 
@@ -168,3 +169,6 @@ Profile Screen
 <img src='https://i.imgur.com/ORZjkDf.gif' width='300' alt='Video Walkthrough' />
 
 <img src='https://i.imgur.com/PbTwquV.gif' width='300' alt='Video Walkthrough' />
+
+<img src='https://i.imgur.com/2Od7SiB.gif' width='300' alt='Video Walkthrough' />
+
