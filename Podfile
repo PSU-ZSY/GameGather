@@ -7,6 +7,7 @@ target 'GameGather' do
 
   # Pods for GameGather
   pod 'Parse'
+  pod 'Alamofire'
 
 
   target 'GameGatherTests' do
