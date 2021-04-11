@@ -16,20 +16,32 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Game Gather" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XhZ-Hw-6mv">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game Gather" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XhZ-Hw-6mv">
                                 <rect key="frame" x="80" y="420" width="254" height="56"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="254" id="s7R-Gl-QYp"/>
+                                    <constraint firstAttribute="height" constant="56" id="zFD-b3-2qc"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="44"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="applogo" translatesAutoresizingMaskIntoConstraints="NO" id="sGm-ur-qrf">
-                                <rect key="frame" x="95" y="178" width="225" height="234"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="applogo" translatesAutoresizingMaskIntoConstraints="NO" id="sGm-ur-qrf">
+                                <rect key="frame" x="94.5" y="178" width="225" height="234"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="225" id="IFo-25-Xfu"/>
+                                    <constraint firstAttribute="height" constant="234" id="Ssk-9u-9fk"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="XhZ-Hw-6mv" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="8Ld-xT-RvC"/>
+                            <constraint firstItem="sGm-ur-qrf" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="8Zj-bg-92c"/>
+                            <constraint firstItem="sGm-ur-qrf" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-153" id="PPt-qc-Prx"/>
+                            <constraint firstItem="XhZ-Hw-6mv" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="u4O-rO-63f"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
