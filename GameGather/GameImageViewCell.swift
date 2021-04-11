@@ -13,7 +13,8 @@ class GameImageViewCell: UITableViewCell {
     @IBOutlet weak var GameImageView: UIImageView!
     @IBOutlet weak var GameLabel: UILabel!
     
-
+    @IBOutlet weak var InfoLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

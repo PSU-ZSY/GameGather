@@ -65,6 +65,8 @@ class GameGalleryViewController: UIViewController, UITableViewDelegate, UITableV
         
         cell.GameLabel.text = game["GameName"] as! String
         
+        cell.InfoLabel.text = game["About"] as! String
+        
         
         let imagefile = game["GameImage"] as! PFFileObject
         let urlString = imagefile.url!

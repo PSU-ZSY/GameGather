@@ -158,7 +158,17 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CcI-CC-h2P">
-                                                    <rect key="frame" x="40" y="208" width="41.5" height="20.5"/>
+                                                    <rect key="frame" x="35" y="208" width="44.5" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zau-st-fZy">
+                                                    <rect key="frame" x="181" y="49" width="223" height="125"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="125" id="JhF-5D-AIG"/>
+                                                        <constraint firstAttribute="width" constant="223" id="NVT-Mv-4DB"/>
+                                                    </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -167,14 +177,17 @@
                                             <constraints>
                                                 <constraint firstItem="CcI-CC-h2P" firstAttribute="top" secondItem="IJa-VZ-qMT" secondAttribute="bottom" constant="8" id="CJQ-Qx-30m"/>
                                                 <constraint firstItem="IJa-VZ-qMT" firstAttribute="leading" secondItem="Co3-ec-yCV" secondAttribute="leadingMargin" constant="10" id="Eas-j5-cD0"/>
-                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="CcI-CC-h2P" secondAttribute="bottom" constant="15.5" id="O3p-2h-NDR"/>
+                                                <constraint firstItem="zau-st-fZy" firstAttribute="top" secondItem="Co3-ec-yCV" secondAttribute="top" constant="49" id="L5L-XB-dya"/>
+                                                <constraint firstAttribute="bottom" secondItem="CcI-CC-h2P" secondAttribute="bottom" constant="15.5" id="O3p-2h-NDR"/>
                                                 <constraint firstItem="IJa-VZ-qMT" firstAttribute="top" secondItem="Co3-ec-yCV" secondAttribute="topMargin" constant="10" id="WRk-Yh-tMg"/>
-                                                <constraint firstItem="CcI-CC-h2P" firstAttribute="leading" secondItem="Co3-ec-yCV" secondAttribute="leading" constant="40" id="dRC-hD-DJm"/>
+                                                <constraint firstItem="CcI-CC-h2P" firstAttribute="leading" secondItem="Co3-ec-yCV" secondAttribute="leading" constant="35" id="dRC-hD-DJm"/>
+                                                <constraint firstItem="zau-st-fZy" firstAttribute="leading" secondItem="IJa-VZ-qMT" secondAttribute="trailing" constant="10" id="woX-3i-Ah3"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="GameImageView" destination="IJa-VZ-qMT" id="KTA-0M-wyC"/>
                                             <outlet property="GameLabel" destination="CcI-CC-h2P" id="TAX-PJ-4zI"/>
+                                            <outlet property="InfoLabel" destination="zau-st-fZy" id="o3f-E0-oR8"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
