@@ -7,7 +7,7 @@
 
 import UIKit
 import Parse
-import Alamofire
+import AlamofireImage
 
 
 class GameGalleryViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
@@ -31,7 +31,9 @@ class GameGalleryViewController: UIViewController, UITableViewDelegate, UITableV
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
+
         let query = PFQuery(className:"Games")
+        
         query.includeKeys(["GameName", "GameImage"])
         query.limit = 10
         
@@ -41,26 +43,33 @@ class GameGalleryViewController: UIViewController, UITableViewDelegate, UITableV
                 self.GameImageTableView.reloadData()
             }
         }
+        
     }
 
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+
         
         return Games.count
     }
     
-    
+
    
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
        
         let cell = tableView.dequeueReusableCell(withIdentifier: "GameImageViewCell") as! GameImageViewCell
         
+        
         let game = Games[indexPath.row]
-        cell.GameLabel.text = (game["GameName"] as! String)
+        
+        cell.GameLabel.text = game["GameName"] as! String
+        
+        
         let imagefile = game["GameImage"] as! PFFileObject
         let urlString = imagefile.url!
         let url = URL(string: urlString)!
+        cell.GameImageView.af_setImage(withURL: url)
         
         return cell
         
