@@ -36,6 +36,7 @@ class GameGalleryViewController: UIViewController, UITableViewDelegate, UITableV
         
         query.includeKeys(["GameName", "GameImage"])
         query.limit = 10
+        query.order(byDescending: "updatedAt")
         
         query.findObjectsInBackground { (Games, error) in
             if Games != nil {
