@@ -257,7 +257,7 @@
         <scene sceneID="aKv-Bb-orU">
             <objects>
                 <navigationController id="6qO-sM-gKJ" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Team Up" id="jjn-us-OVQ"/>
+                    <tabBarItem key="tabBarItem" title="Team Up" image="team-icon" id="jjn-us-OVQ"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="7jz-Wm-Oly">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -379,7 +379,7 @@
         <scene sceneID="JfS-TN-LDH">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" modalPresentationStyle="fullScreen" id="2J4-0p-p8D" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" id="huy-rR-hxT"/>
+                    <tabBarItem key="tabBarItem" title="Home" image="home-icon" id="huy-rR-hxT"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="eUK-Ov-hvZ">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -398,7 +398,7 @@
         <scene sceneID="Jbg-bf-95C">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="CAO-Qv-N1O" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Games" id="2DB-Sm-n50"/>
+                    <tabBarItem key="tabBarItem" title="Games" image="game-icon" id="2DB-Sm-n50"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Qim-18-8bl">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -419,7 +419,10 @@
     </inferredMetricsTieBreakers>
     <resources>
         <image name="applogo" width="340" height="340"/>
+        <image name="game-icon" width="24" height="24"/>
         <image name="hanxin" width="360" height="364"/>
+        <image name="home-icon" width="24" height="24"/>
+        <image name="team-icon" width="24" height="24"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
