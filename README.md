@@ -30,7 +30,7 @@
 **Required Must-have Stories**
 
 * [fill in your required user stories here]
-* [ ] User post team up request 
+* [X] User post team up request 
 * [X] User can view game info from the games page
 * [X] User profile: username displayed and user can upload profile image
 * [ ] Users respond to teams' posts to form groups.
@@ -178,5 +178,13 @@ Profile Screen
 <img src='https://i.imgur.com/bcFBsWg.gif' width='300' alt='Video Walkthrough' />
 
 <img src='https://i.imgur.com/J4OvgL7.gif' width='300' alt='Video Walkthrough' />
+
+
+### Milestone 3
+
+<img src='https://i.imgur.com/SLphegh.gif' width='300' alt='Video Walkthrough' />
+
+<img src='https://i.imgur.com/rnX1CCk.gif' width='300' alt='Video Walkthrough' />
+
 
 
